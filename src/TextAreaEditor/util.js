@@ -365,7 +365,7 @@ export const toggleBlock = (editor, format) => {
           ? "unstyled"
           : "paragraph"
         : isList
-        ? "unstyled"
+        ? "unstyled-list"
         : format,
     };
   }
@@ -609,6 +609,7 @@ export const serializeToHTML = (node) => {
       return `<div style=${alignStyle}>${children}</div>`;
     case "link":
       return `<a target="_blank" rel="noreferrer noopener" href="${node.url}">${children}</a>`;
+    case "list-unstyled":
     default:
       return children;
   }

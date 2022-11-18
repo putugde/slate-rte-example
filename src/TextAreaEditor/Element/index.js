@@ -107,6 +107,7 @@ const Element = (props) => {
           <InlineChromiumBugfix />
         </a>
       );
+    case "list-unstyled":
     default:
       return <>{children}</>;
   }
