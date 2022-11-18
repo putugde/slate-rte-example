@@ -21,6 +21,9 @@ const App = () => {
       <h1 className="header">Slate RTE Example</h1>
       <TextAreaEditor onChange={handleOnChange} />
 
+      <h3>Rendered Content</h3>
+      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
+
       <div className="state-container">
         <div className="state-content">
           <h3>Editor State</h3>
@@ -35,8 +38,6 @@ const App = () => {
           </pre>
         </div>
       </div>
-      <h3>Rendered Content</h3>
-      <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
     </div>
   );
 };
