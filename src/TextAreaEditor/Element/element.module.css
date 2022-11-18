@@ -1,0 +1,15 @@
+.rte-link-selected {
+    box-shadow: 0 0 0 3px #ddd;
+}
+
+.rte__table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.rte__td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 4px;
+}

@@ -1,0 +1,19 @@
+.main {
+  border: 1px solid #c9cecf;
+  border-radius: 4px;
+}
+
+.toolbar {
+  background-color: #f1f3f3;
+  border-bottom: 1px solid #dbdedf;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editor {
+  min-height: 150px !important;
+  overflow: auto;
+  padding: 10px;
+  resize: vertical;
+}

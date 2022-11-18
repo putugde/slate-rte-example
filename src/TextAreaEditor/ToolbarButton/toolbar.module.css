@@ -1,0 +1,39 @@
+.toolbar-btn {
+  align-items: center;
+  background: transparent;
+  border-width: 0rem;
+  color: #929aa0;
+  display: flex;
+  justify-content: center;
+  min-width: 30px;
+  padding: 4px 8px;
+}
+
+.toolbar-btn:hover {
+  cursor: pointer;
+  background: #dbdedf;
+}
+
+.toolbar-btn.active {
+  background: #e4e6e7;
+  color: #474d52;
+  font-weight: 700;
+}
+
+.toolbar-btn.active:hover {
+  background: #dbdedf;
+}
+
+.nested-icon-container {
+  max-height: 25px;
+  position: relative;
+  transform: scale(0.8);
+}
+
+.nested-icon-front {
+  bottom: -3px;
+  height: 15px;
+  position: absolute;
+  right: -4px;
+  width: 15px;
+}
