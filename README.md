@@ -15,3 +15,6 @@ Some formatting features are:
 
 #### Note
 Press `Tab` to increase list depth and `Shift+Tab` to decrease the list depth
+
+#### TODO
+Add image support
