@@ -28,7 +28,7 @@ import {
 } from "./util";
 
 const TextAreaEditor = (props) => {
-  const { actions = DEFAULT_ACTIONS, id, onChange } = props;
+  const { actions = DEFAULT_ACTIONS, id, onChange, value = INITIAL_VALUE } = props;
 
   const [editor] = useState(() =>
     withUtils(withReact(withHistory(createEditor())))
@@ -193,7 +193,7 @@ const TextAreaEditor = (props) => {
 
   return (
     <div className={styles.main}>
-      <Slate editor={editor} value={INITIAL_VALUE} onChange={handleOnChange}>
+      <Slate editor={editor} initialValue={value} onChange={handleOnChange}>
         <div className={styles.toolbar}>{renderToolbarButton()}</div>
         <Editable
           className={styles.editor}

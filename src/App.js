@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div className="app">
       <h1 className="header">Slate RTE Example</h1>
-      <TextAreaEditor onChange={handleOnChange} />
+      <TextAreaEditor value={editorState} onChange={handleOnChange} />
 
       <h3>Rendered Content</h3>
       <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
