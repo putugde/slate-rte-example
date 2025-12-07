@@ -1,16 +1,16 @@
 {
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
     "react-scripts": "5.0.1",
-    "slate": "^0.85.0",
-    "slate-history": "^0.85.0",
-    "slate-react": "^0.83.2",
-    "web-vitals": "^2.1.4"
+    "slate": "^0.120.0",
+    "slate-history": "^0.113.1",
+    "slate-react": "^0.120.0",
+    "web-vitals": "^5.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
